@@ -1,8 +1,8 @@
 """
 
-Warning:
+Note:
 This script was created for windows operating systems.
-It doesn't work on Linux distributions.
+It may not work on Linux distributions.
 
 Description:
 This is a simple python script that takes a PDF file, 
@@ -17,7 +17,7 @@ Dependencies:
 should be accurate; please make sure the path is alright. 
 If needed, change it.
 
-Set these variables before running this program:
+Set these variables before running this script:
 - path
 - pdf_file_name
 - standard_file_path
@@ -35,7 +35,7 @@ from docx import Document
 from docx.shared import Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 
-path = '' # Provide the path where the PDF file is, not the file itself. 
+path = '' # Provide the path of the folder where the PDF file is, not the file itself. 
 pdf_file_name = '' # Provide the name of the PDF file.
 
 standard_file_path = f'' # Provide a blank docx file (full path). It shouldn't be in the folder where the PDF file is.
@@ -180,7 +180,7 @@ def pagemaker(pdf_file_name, i):
 
 for i in range(1, total_pages+1, 8):
     """
-    For every 8 pages, the main function is
+    For every 8 pages in the PDF, the main function is
     invoked once.
     """
     pagemaker(pdf_file_name, i)
