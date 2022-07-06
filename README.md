@@ -22,5 +22,8 @@ If needed, change it.
 - w_i
 - h_i
 
+## After running the program successfully
+If the program successfully finishes, you will find a docx file in the same directory where the PDF file is. The file will contain all the pages from the PDF, 4 pages in each docx page. The width and height of each small page will be according to the variables set by you (w_i, h_i - in inches). Note that you need to set appropriate margins within the docx file so that each 2 corresponding pages lie exactly in one anothers opposite. It is necessary if you print the pages in both sides using a printer. This way when you cut the printed pages, they will be in a consecutive manner.
+
 ## History
-I created this script originally for cheating on my exams. I had PDFs of the solutions and running this script, I could easily make docx files containg the whole PDF, which after printing were ready to be cut and made pocket notes. But I learned that no matter how advanced tools or techs I use, if I don't study well, my GPA would not be getting any better. I may hardly pass the exams using cheating papers, but getting a better CGPA really requires one to study well.
+I created this script originally for cheating on my exams. I had PDFs of the solutions and running this script, I could easily make docx files containg the whole PDF, which after printing were ready to be cut and made pocket notes. But I learned that no matter how advanced tools or techs I use, if I don't study well, my GPA would not be getting any better. I might hardly pass the exams using cheating papers, but getting a better CGPA really requires one to study well.
