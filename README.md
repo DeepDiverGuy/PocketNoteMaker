@@ -22,6 +22,8 @@ If needed, change it.
 - w_i
 - h_i
 
+Instructions are inside the script accordingly.
+
 ## After running the program successfully
 If the program successfully finishes, you will find a docx file in the same directory where the PDF file is. The file will contain all the pages from the PDF, 4 pages in each docx page. The width and height of each small page will be according to the variables set by you (w_i, h_i - in inches). Note that you need to set appropriate margins within the docx file so that each 2 corresponding pages lie exactly in one anothers opposite. It is necessary if you print the pages in both sides using a printer. This way when you cut the printed pages, they will be in a consecutive manner.
 
