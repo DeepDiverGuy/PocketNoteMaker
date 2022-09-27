@@ -3,10 +3,7 @@ This script was created for windows operating systems.
 It may not work on Linux distributions.
 
 ## Description
-This is a simple python script that takes a PDF file, 
-creates images for each page in the pdf, stores those
-in a folder and from that folder, merges 4 pictures 
-in each docx page.
+This is a simple python script that converts a PDF file into a pocket note (in docx format).
 
 ## Dependencies
 - docx
