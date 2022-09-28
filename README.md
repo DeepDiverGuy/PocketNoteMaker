@@ -6,11 +6,11 @@ It may not work on Linux distributions.
 This is a simple python script that converts a PDF file into a pocket note (in docx format).
 
 ## Dependencies
-- docx
-- pdf2image
+- pip install docx [if you're using python 3.10 or up, then: pip install python-docx]
+- pip install pdf2image
 - The path for poppler binaries (poppler_path) in line 69 
 should be accurate; please make sure the path is alright. 
-If needed, change it.
+If needed, change it. Download it from here: https://blog.alivate.com.au/poppler-windows/
 
 ## Set these variables before running this script
 - path
